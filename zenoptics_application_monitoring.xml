@@ -389,6 +389,9 @@
         <option name="trellis.enabled">0</option>
         <option name="trellis.scales.shared">1</option>
         <option name="trellis.size">medium</option>
+        <drilldown>
+          <link target="_blank">/app/ZenOpticsMonitoring/search?q=search sourcetype=tomcat:runtime:log log_level="$click.name2$" | timechart count by log_level&amp;earliest=$earliest$&amp;latest=$latest$</link>
+        </drilldown>
       </chart>
     </panel>
     <panel>
